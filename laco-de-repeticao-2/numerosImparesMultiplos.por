@@ -9,25 +9,19 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro soma, i
+	inteiro resultado = 0
+	
+	para(inteiro x = 1; x <= 500; x++){
+	se(x % 3 == 0 e x % 2 != 0){
+	
+		resultado = x  
 
-		soma = 0
-
-		para( i = 1 ; i <= 500 ; i++) {
-
-			se ((i%2 != 0) e (i%3==0)){
-				soma = soma + i
-			}
-		}
-
-		escreva(soma)
-
-		
+		escreva("A soma é: ", + resultado + "\n")
+	}
+	}
 
 
-		
-
-   		
+	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 351; 
+ * @POSICAO-CURSOR = 359; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
