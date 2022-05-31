@@ -22,20 +22,24 @@ programa
 				numero += contador
 				escreva(numero + "\n")
 			} enquanto (numero < 300 )
-				
-		} senao se (numero > 300) {
+			
+		} 
+		
+		se (numero > 300) {
 			faca {
 				contador = 3
 				numero += contador
 				escreva(numero + "\n")
 			} enquanto ( numero <= 400)
 		
-		} senao {
+		} 
+		
+		se (numero > 400 e numero < 456){
 			faca {
 				contador = 5
 				numero += contador
 				escreva(numero + "\n")
-			}enquanto ( numero <= 456)
+			}enquanto ( numero < 456)
 		}
 	}
 }
@@ -44,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 704; 
+ * @POSICAO-CURSOR = 481; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
