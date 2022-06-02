@@ -64,6 +64,21 @@ apresente no final o total do somatório, a média e o total de valores lidos. O
 deve fazer as leituras dos valores enquanto o usuário estiver fornecendo valores
 positivos. Ou seja, o programa deve parar quando o usuário fornecer um valor
 negativo.
+
+- Contagem Na tela 
+Faça um programa que mostre uma contagem na tela de 233 a 456, só que
+contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estiver.
 * Calcule o quadrado de cada um;
 * Se o valor resultante do quadrado do terceiro for &gt;= 1000, imprima-o e finalize;
 * Caso contrário, imprima os valores lidos e seus respectivos quadrados.
+
+Pasta - Vetores e Matrizes
+
+- leituraPontuação Maior
+ Faça um programa que crie um vetor por leitura com 5 valores de pontuação de uma
+atividade e o escreva em seguida. Encontre após a maior pontuação e a apresente.
+
+- Soma Total diagonal 
+Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e
+em seguida, exiba a soma dos valores dela e a soma dos valores da primeira
+diagonal, ou seja, diagonal principal.
