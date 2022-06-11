@@ -34,6 +34,27 @@ public class EmpresaLerDados {
 		int contCalmas, contNervosas, contAgressivos, contCalmos, contNervosasQuarenta, contCalmasMenosDezoito, totalPessoas = 0, idade, sexo;
 		int feminino = 0, masculino = 0, outros = 0;
 		
+		String nome = "Isabella" , nomeDigitado;
+		int senha = 369852147, senhaDigitada;
+		
+		
+		System.out.println("Digite seu nome: ");
+		nomeDigitado = digite.next();
+		
+		System.out.println("Digite sua senha: ");
+		senhaDigitada = digite.nextInt();
+		
+		if ( nome == nomeDigitado && senha == senhaDigitada) {
+			System.out.println("senha valida");
+		} 
+		else {
+			System.out.println("senha invalida");
+		}
+		
+		
+		
+		
+		
 		System.out.println("Digite o numero de pessoas: ");
 		totalPessoas = digite.nextInt();
 		
