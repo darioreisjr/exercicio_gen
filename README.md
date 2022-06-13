@@ -72,9 +72,9 @@ contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quando não estive
 * Se o valor resultante do quadrado do terceiro for &gt;= 1000, imprima-o e finalize;
 * Caso contrário, imprima os valores lidos e seus respectivos quadrados.
 
-Pasta - Vetores e Matrizes ----->
+Pasta - Vetores e Matrizes 
 
-- leituraPontuação Maior -
+- leituraPontuação Maior 
  Faça um programa que crie um vetor por leitura com 5 valores de pontuação de uma
 atividade e o escreva em seguida. Encontre após a maior pontuação e a apresente.
 
